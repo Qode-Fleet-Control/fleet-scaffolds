@@ -1,0 +1,1248 @@
+{
+  "title": "Top 10 languages on GitHub and their top 10 frameworks",
+  "generated": "2026-09-21",
+  "language_ranking": {
+    "source": "GitHub Octoverse 2025 - top languages by distinct monthly contributors (August 2025)",
+    "source_url": "https://github.blog/news-insights/octoverse/octoverse-a-new-developer-joins-github-every-second-as-ai-leads-typescript-to-1/"
+  },
+  "framework_ranking": {
+    "basis": "Ordered by ecosystem prominence (GitHub stars, package-registry downloads and production usage as of 2026). Ordering is a judgement call, not a single published metric.",
+    "note": "Only frameworks/major libraries are listed - languages, runtimes and package managers are excluded."
+  },
+  "languages": [
+    {
+      "rank": 1,
+      "name": "TypeScript",
+      "contributors_aug_2025": 2636006,
+      "frameworks": [
+        {
+          "rank": 1,
+          "name": "React",
+          "category": "frontend UI",
+          "url": "https://github.com/facebook/react",
+          "scaffold": "scaffolds/typescript/react",
+          "scaffold_origin": "official CLI",
+          "repo": "https://github.com/Qode-Fleet-Control/qode-react-template-v1",
+          "repo_status": "created 2026-09-21 from Qode-Fleet-Control/fleet-template-v1",
+          "verified": "booted via bin/run with injected PORT; 200 at $HEALTH_PATH"
+        },
+        {
+          "rank": 2,
+          "name": "Next.js",
+          "category": "full-stack React",
+          "url": "https://github.com/vercel/next.js",
+          "scaffold": "scaffolds/typescript/nextjs",
+          "scaffold_origin": "official CLI",
+          "repo": "https://github.com/Qode-Fleet-Control/qode-nextjs-template-v1",
+          "repo_status": "created 2026-09-21 from Qode-Fleet-Control/fleet-template-v1",
+          "verified": "booted via bin/run with injected PORT; 200 at $HEALTH_PATH"
+        },
+        {
+          "rank": 3,
+          "name": "Angular",
+          "category": "frontend application",
+          "url": "https://github.com/angular/angular",
+          "scaffold": "scaffolds/typescript/angular",
+          "scaffold_origin": "official CLI",
+          "repo": "https://github.com/Qode-Fleet-Control/qode-angular-template-v1",
+          "repo_status": "created 2026-09-21 from Qode-Fleet-Control/fleet-template-v1",
+          "verified": "booted via bin/run with injected PORT; 200 at $HEALTH_PATH"
+        },
+        {
+          "rank": 4,
+          "name": "Vue",
+          "category": "frontend UI",
+          "url": "https://github.com/vuejs/core",
+          "scaffold": "scaffolds/typescript/vue",
+          "scaffold_origin": "official CLI",
+          "repo": "https://github.com/Qode-Fleet-Control/qode-vue-template-v1",
+          "repo_status": "created 2026-09-21 from Qode-Fleet-Control/fleet-template-v1",
+          "verified": "booted via bin/run with injected PORT; 200 at $HEALTH_PATH"
+        },
+        {
+          "rank": 5,
+          "name": "NestJS",
+          "category": "backend application",
+          "url": "https://github.com/nestjs/nest",
+          "scaffold": "scaffolds/typescript/nestjs",
+          "scaffold_origin": "official CLI",
+          "repo": "https://github.com/Qode-Fleet-Control/qode-nestjs-template-v1",
+          "repo_status": "pre-existing repo, NOT modified in this run",
+          "verified": "not booted - needs a real DATABASE_URL (TypeORM at startup)"
+        },
+        {
+          "rank": 6,
+          "name": "Svelte / SvelteKit",
+          "category": "frontend + full-stack",
+          "url": "https://github.com/sveltejs/kit",
+          "scaffold": "scaffolds/typescript/sveltekit",
+          "scaffold_origin": "official CLI",
+          "repo": "https://github.com/Qode-Fleet-Control/qode-sveltekit-template-v1",
+          "repo_status": "created 2026-09-21 from Qode-Fleet-Control/fleet-template-v1",
+          "verified": "booted via bin/run with injected PORT; 200 at $HEALTH_PATH"
+        },
+        {
+          "rank": 7,
+          "name": "Astro",
+          "category": "content-first web",
+          "url": "https://github.com/withastro/astro",
+          "scaffold": "scaffolds/typescript/astro",
+          "scaffold_origin": "official CLI",
+          "repo": "https://github.com/Qode-Fleet-Control/qode-astro-template-v1",
+          "repo_status": "created 2026-09-21 from Qode-Fleet-Control/fleet-template-v1",
+          "verified": "booted via bin/run with injected PORT; 200 at $HEALTH_PATH"
+        },
+        {
+          "rank": 8,
+          "name": "Remix / React Router",
+          "category": "full-stack React",
+          "url": "https://github.com/remix-run/react-router",
+          "scaffold": "scaffolds/typescript/react-router",
+          "scaffold_origin": "official CLI",
+          "repo": "https://github.com/Qode-Fleet-Control/qode-react-router-template-v1",
+          "repo_status": "created 2026-09-21 from Qode-Fleet-Control/fleet-template-v1",
+          "verified": "booted via bin/run with injected PORT; 200 at $HEALTH_PATH"
+        },
+        {
+          "rank": 9,
+          "name": "tRPC",
+          "category": "typesafe API layer",
+          "url": "https://github.com/trpc/trpc",
+          "scaffold": "scaffolds/typescript/trpc",
+          "scaffold_origin": "official CLI",
+          "repo": "https://github.com/Qode-Fleet-Control/qode-trpc-template-v1",
+          "repo_status": "created 2026-09-21 from Qode-Fleet-Control/fleet-template-v1",
+          "verified": "booted via bin/run with injected PORT; 200 at $HEALTH_PATH"
+        },
+        {
+          "rank": 10,
+          "name": "Nuxt",
+          "category": "full-stack Vue",
+          "url": "https://github.com/nuxt/nuxt",
+          "scaffold": "scaffolds/typescript/nuxt",
+          "scaffold_origin": "official CLI",
+          "repo": "https://github.com/Qode-Fleet-Control/qode-nuxt-template-v1",
+          "repo_status": "created 2026-09-21 from Qode-Fleet-Control/fleet-template-v1",
+          "verified": "booted via bin/run with injected PORT; 200 at $HEALTH_PATH"
+        },
+        {
+          "rank": 11,
+          "name": "Fleet Full-Stack",
+          "category": "full-stack monorepo (React + Express + Postgres)",
+          "url": "https://github.com/Qode-Fleet-Control/fleet-scaffold-v1",
+          "scaffold": "scaffolds/typescript/fleet-scaffold",
+          "scaffold_origin": "hand-written (Qode)",
+          "repo": "https://github.com/Qode-Fleet-Control/fleet-scaffold-v1",
+          "repo_status": "added 2026-09-29; the fleet's own npm-workspaces starter (apps/api + apps/web + packages/*), the layout replit-to-fleet migrates onto",
+          "verified": "not booted by the fleet; ships a Dockerfile (PORT, /api/health) but no fleet.conf or bin/ lifecycle scripts, and needs DATABASE_URL"
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "name": "Python",
+      "contributors_aug_2025": 2594000,
+      "frameworks": [
+        {
+          "rank": 1,
+          "name": "Django",
+          "category": "web",
+          "url": "https://github.com/django/django",
+          "scaffold": "scaffolds/python/django",
+          "scaffold_origin": "official CLI",
+          "repo": "https://github.com/Qode-Fleet-Control/qode-django-template-v1",
+          "repo_status": "created 2026-09-21 from Qode-Fleet-Control/fleet-template-v1",
+          "verified": "booted via bin/run with injected PORT; 200 at $HEALTH_PATH"
+        },
+        {
+          "rank": 2,
+          "name": "FastAPI",
+          "category": "web API",
+          "url": "https://github.com/fastapi/fastapi",
+          "scaffold": "scaffolds/python/fastapi",
+          "scaffold_origin": "hand-written (no official generator)",
+          "repo": "https://github.com/Qode-Fleet-Control/qode-fastapi-template-v1",
+          "repo_status": "created 2026-09-21 from Qode-Fleet-Control/fleet-template-v1",
+          "verified": "booted via bin/run with injected PORT; 200 at $HEALTH_PATH"
+        },
+        {
+          "rank": 3,
+          "name": "Flask",
+          "category": "web microframework",
+          "url": "https://github.com/pallets/flask",
+          "scaffold": "scaffolds/python/flask",
+          "scaffold_origin": "hand-written (no official generator)",
+          "repo": "https://github.com/Qode-Fleet-Control/qode-flask-template-v1",
+          "repo_status": "created 2026-09-21 from Qode-Fleet-Control/fleet-template-v1",
+          "verified": "booted via bin/run with injected PORT; 200 at $HEALTH_PATH"
+        },
+        {
+          "rank": 4,
+          "name": "PyTorch",
+          "category": "deep learning",
+          "url": "https://github.com/pytorch/pytorch",
+          "scaffold": "scaffolds/python/pytorch",
+          "scaffold_origin": "hand-written (no official generator)",
+          "repo": "https://github.com/Qode-Fleet-Control/qode-pytorch-template-v1",
+          "repo_status": "created 2026-09-21 from Qode-Fleet-Control/fleet-template-v1",
+          "verified": "not a service - empty START_CMD by design; install path verified"
+        },
+        {
+          "rank": 5,
+          "name": "TensorFlow / Keras",
+          "category": "deep learning",
+          "url": "https://github.com/tensorflow/tensorflow",
+          "scaffold": "scaffolds/python/tensorflow-keras",
+          "scaffold_origin": "hand-written (no official generator)",
+          "repo": "https://github.com/Qode-Fleet-Control/qode-tensorflow-keras-template-v1",
+          "repo_status": "created 2026-09-21 from Qode-Fleet-Control/fleet-template-v1",
+          "verified": "not a service - empty START_CMD by design; install path verified"
+        },
+        {
+          "rank": 6,
+          "name": "LangChain",
+          "category": "LLM application",
+          "url": "https://github.com/langchain-ai/langchain",
+          "scaffold": "scaffolds/python/langchain",
+          "scaffold_origin": "official CLI",
+          "repo": "https://github.com/Qode-Fleet-Control/qode-langchain-template-v1",
+          "repo_status": "created 2026-09-21 from Qode-Fleet-Control/fleet-template-v1",
+          "verified": "booted via bin/run with injected PORT; 200 at $HEALTH_PATH"
+        },
+        {
+          "rank": 7,
+          "name": "Pandas",
+          "category": "data analysis",
+          "url": "https://github.com/pandas-dev/pandas",
+          "scaffold": "scaffolds/python/pandas",
+          "scaffold_origin": "hand-written (no official generator)",
+          "repo": "https://github.com/Qode-Fleet-Control/qode-pandas-template-v1",
+          "repo_status": "created 2026-09-21 from Qode-Fleet-Control/fleet-template-v1",
+          "verified": "not a service - empty START_CMD by design; install path verified"
+        },
+        {
+          "rank": 8,
+          "name": "scikit-learn",
+          "category": "classical ML",
+          "url": "https://github.com/scikit-learn/scikit-learn",
+          "scaffold": "scaffolds/python/scikit-learn",
+          "scaffold_origin": "hand-written (no official generator)",
+          "repo": "https://github.com/Qode-Fleet-Control/qode-scikit-learn-template-v1",
+          "repo_status": "created 2026-09-21 from Qode-Fleet-Control/fleet-template-v1",
+          "verified": "not a service - empty START_CMD by design; install path verified"
+        },
+        {
+          "rank": 9,
+          "name": "Pytest",
+          "category": "testing",
+          "url": "https://github.com/pytest-dev/pytest",
+          "scaffold": "scaffolds/python/pytest",
+          "scaffold_origin": "hand-written (no official generator)",
+          "repo": "https://github.com/Qode-Fleet-Control/qode-pytest-template-v1",
+          "repo_status": "created 2026-09-21 from Qode-Fleet-Control/fleet-template-v1",
+          "verified": "not a service - empty START_CMD by design; install path verified"
+        },
+        {
+          "rank": 10,
+          "name": "Scrapy",
+          "category": "web crawling",
+          "url": "https://github.com/scrapy/scrapy",
+          "scaffold": "scaffolds/python/scrapy",
+          "scaffold_origin": "official CLI",
+          "repo": "https://github.com/Qode-Fleet-Control/qode-scrapy-template-v1",
+          "repo_status": "created 2026-09-21 from Qode-Fleet-Control/fleet-template-v1",
+          "verified": "not a service - empty START_CMD by design; install path verified"
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "name": "JavaScript",
+      "contributors_aug_2025": 2150000,
+      "frameworks": [
+        {
+          "rank": 1,
+          "name": "React",
+          "category": "frontend UI",
+          "url": "https://github.com/facebook/react",
+          "scaffold": "scaffolds/javascript/react-js",
+          "scaffold_origin": "official CLI",
+          "repo": "https://github.com/Qode-Fleet-Control/qode-react-js-template-v1",
+          "repo_status": "created 2026-10-05 from Qode-Fleet-Control/fleet-template-v1",
+          "kind": "http",
+          "verified": "Build check on GitHub (bin/run via docker compose: 200 at $HEALTH_PATH, restart, stop leaves nothing)"
+        },
+        {
+          "rank": 2,
+          "name": "Express",
+          "category": "backend web",
+          "url": "https://github.com/expressjs/express",
+          "scaffold": "scaffolds/javascript/express",
+          "scaffold_origin": "official CLI",
+          "repo": "https://github.com/Qode-Fleet-Control/qode-express-template-v1",
+          "repo_status": "created 2026-10-05 from Qode-Fleet-Control/fleet-template-v1",
+          "kind": "http",
+          "verified": "Build check on GitHub (bin/run via docker compose: 200 at $HEALTH_PATH, restart, stop leaves nothing)"
+        },
+        {
+          "rank": 3,
+          "name": "Vue",
+          "category": "frontend UI",
+          "url": "https://github.com/vuejs/core",
+          "scaffold": "scaffolds/javascript/vue-js",
+          "scaffold_origin": "official CLI",
+          "repo": "https://github.com/Qode-Fleet-Control/qode-vue-js-template-v1",
+          "repo_status": "created 2026-10-05 from Qode-Fleet-Control/fleet-template-v1",
+          "kind": "http",
+          "verified": "Build check on GitHub (bin/run via docker compose: 200 at $HEALTH_PATH, restart, stop leaves nothing)"
+        },
+        {
+          "rank": 4,
+          "name": "Next.js",
+          "category": "full-stack React",
+          "url": "https://github.com/vercel/next.js",
+          "scaffold": "scaffolds/javascript/nextjs-js",
+          "scaffold_origin": "official CLI",
+          "repo": "https://github.com/Qode-Fleet-Control/qode-nextjs-js-template-v1",
+          "repo_status": "created 2026-10-05 from Qode-Fleet-Control/fleet-template-v1",
+          "kind": "http",
+          "verified": "Build check on GitHub (bin/run via docker compose: 200 at $HEALTH_PATH, restart, stop leaves nothing)"
+        },
+        {
+          "rank": 5,
+          "name": "Svelte",
+          "category": "compiled frontend UI",
+          "url": "https://github.com/sveltejs/svelte",
+          "scaffold": "scaffolds/javascript/svelte",
+          "scaffold_origin": "official CLI",
+          "repo": "https://github.com/Qode-Fleet-Control/qode-svelte-template-v1",
+          "repo_status": "created 2026-10-05 from Qode-Fleet-Control/fleet-template-v1",
+          "kind": "http",
+          "verified": "Build check on GitHub (bin/run via docker compose: 200 at $HEALTH_PATH, restart, stop leaves nothing)"
+        },
+        {
+          "rank": 6,
+          "name": "Electron",
+          "category": "desktop apps",
+          "url": "https://github.com/electron/electron",
+          "scaffold": "scaffolds/javascript/electron",
+          "scaffold_origin": "official CLI",
+          "repo": "https://github.com/Qode-Fleet-Control/qode-electron-template-v1",
+          "repo_status": "created 2026-10-05 from Qode-Fleet-Control/fleet-template-v1",
+          "kind": "job",
+          "verified": "Build check on GitHub (docker compose run --rm app exits 0)"
+        },
+        {
+          "rank": 7,
+          "name": "jQuery",
+          "category": "DOM library (legacy)",
+          "url": "https://github.com/jquery/jquery",
+          "scaffold": "scaffolds/javascript/jquery",
+          "scaffold_origin": "hand-written",
+          "repo": "https://github.com/Qode-Fleet-Control/qode-jquery-template-v1",
+          "repo_status": "created 2026-10-05 from Qode-Fleet-Control/fleet-template-v1",
+          "kind": "http",
+          "verified": "Build check on GitHub (bin/run via docker compose: 200 at $HEALTH_PATH, restart, stop leaves nothing)"
+        },
+        {
+          "rank": 8,
+          "name": "Jest",
+          "category": "testing",
+          "url": "https://github.com/jestjs/jest",
+          "scaffold": "scaffolds/javascript/jest",
+          "scaffold_origin": "hand-written",
+          "repo": "https://github.com/Qode-Fleet-Control/qode-jest-template-v1",
+          "repo_status": "created 2026-10-05 from Qode-Fleet-Control/fleet-template-v1",
+          "kind": "job",
+          "verified": "Build check on GitHub (docker compose run --rm app exits 0)"
+        },
+        {
+          "rank": 9,
+          "name": "Fastify",
+          "category": "backend web",
+          "url": "https://github.com/fastify/fastify",
+          "scaffold": "scaffolds/javascript/fastify",
+          "scaffold_origin": "official CLI",
+          "repo": "https://github.com/Qode-Fleet-Control/qode-fastify-template-v1",
+          "repo_status": "created 2026-10-05 from Qode-Fleet-Control/fleet-template-v1",
+          "kind": "http",
+          "verified": "Build check on GitHub (bin/run via docker compose: 200 at $HEALTH_PATH, restart, stop leaves nothing)"
+        },
+        {
+          "rank": 10,
+          "name": "Three.js",
+          "category": "3D / WebGL",
+          "url": "https://github.com/mrdoob/three.js",
+          "scaffold": "scaffolds/javascript/threejs",
+          "scaffold_origin": "hand-written",
+          "repo": "https://github.com/Qode-Fleet-Control/qode-threejs-template-v1",
+          "repo_status": "created 2026-10-05 from Qode-Fleet-Control/fleet-template-v1",
+          "kind": "http",
+          "verified": "Build check on GitHub (bin/run via docker compose: 200 at $HEALTH_PATH, restart, stop leaves nothing)"
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "name": "Java",
+      "contributors_aug_2025": 840000,
+      "frameworks": [
+        {
+          "rank": 1,
+          "name": "Spring Boot",
+          "category": "application / web",
+          "url": "https://github.com/spring-projects/spring-boot",
+          "scaffold": "scaffolds/java/spring-boot",
+          "scaffold_origin": "official starter API",
+          "repo": "https://github.com/Qode-Fleet-Control/qode-spring-boot-template-v1",
+          "repo_status": "created 2026-10-05 from Qode-Fleet-Control/fleet-template-v1",
+          "kind": "http",
+          "verified": "Build check on GitHub (bin/run via docker compose: 200 at $HEALTH_PATH, restart, stop leaves nothing)"
+        },
+        {
+          "rank": 2,
+          "name": "Spring Framework",
+          "category": "core application",
+          "url": "https://github.com/spring-projects/spring-framework",
+          "scaffold": "scaffolds/java/spring-framework",
+          "scaffold_origin": "hand-written",
+          "repo": "https://github.com/Qode-Fleet-Control/qode-spring-framework-template-v1",
+          "repo_status": "created 2026-10-05 from Qode-Fleet-Control/fleet-template-v1",
+          "kind": "http",
+          "verified": "Build check on GitHub (bin/run via docker compose: 200 at $HEALTH_PATH, restart, stop leaves nothing)"
+        },
+        {
+          "rank": 3,
+          "name": "Quarkus",
+          "category": "cloud-native / GraalVM",
+          "url": "https://github.com/quarkusio/quarkus",
+          "scaffold": "scaffolds/java/quarkus",
+          "scaffold_origin": "official starter API",
+          "repo": "https://github.com/Qode-Fleet-Control/qode-quarkus-template-v1",
+          "repo_status": "created 2026-10-05 from Qode-Fleet-Control/fleet-template-v1",
+          "kind": "http",
+          "verified": "Build check on GitHub (bin/run via docker compose: 200 at $HEALTH_PATH, restart, stop leaves nothing)"
+        },
+        {
+          "rank": 4,
+          "name": "Micronaut",
+          "category": "cloud-native microservices",
+          "url": "https://github.com/micronaut-projects/micronaut-core",
+          "scaffold": "scaffolds/java/micronaut",
+          "scaffold_origin": "official starter API",
+          "repo": "https://github.com/Qode-Fleet-Control/qode-micronaut-template-v1",
+          "repo_status": "created 2026-10-05 from Qode-Fleet-Control/fleet-template-v1",
+          "kind": "http",
+          "verified": "Build check on GitHub (bin/run via docker compose: 200 at $HEALTH_PATH, restart, stop leaves nothing)"
+        },
+        {
+          "rank": 5,
+          "name": "Hibernate ORM",
+          "category": "persistence",
+          "url": "https://github.com/hibernate/hibernate-orm",
+          "scaffold": "scaffolds/java/hibernate-orm",
+          "scaffold_origin": "hand-written",
+          "repo": "https://github.com/Qode-Fleet-Control/qode-hibernate-orm-template-v1",
+          "repo_status": "created 2026-10-05 from Qode-Fleet-Control/fleet-template-v1",
+          "kind": "job",
+          "verified": "Build check on GitHub (docker compose run --rm app exits 0)"
+        },
+        {
+          "rank": 6,
+          "name": "Jakarta EE",
+          "category": "enterprise platform",
+          "url": "https://github.com/jakartaee",
+          "scaffold": "scaffolds/java/jakarta-ee",
+          "scaffold_origin": "official starter API",
+          "repo": "https://github.com/Qode-Fleet-Control/qode-jakarta-ee-template-v1",
+          "repo_status": "created 2026-10-05 from Qode-Fleet-Control/fleet-template-v1",
+          "kind": "http",
+          "verified": "Build check on GitHub (bin/run via docker compose: 200 at $HEALTH_PATH, restart, stop leaves nothing)"
+        },
+        {
+          "rank": 7,
+          "name": "JUnit 5",
+          "category": "testing",
+          "url": "https://github.com/junit-team/junit5",
+          "scaffold": "scaffolds/java/junit5",
+          "scaffold_origin": "official CLI",
+          "repo": "https://github.com/Qode-Fleet-Control/qode-junit5-template-v1",
+          "repo_status": "created 2026-10-05 from Qode-Fleet-Control/fleet-template-v1",
+          "kind": "job",
+          "verified": "Build check on GitHub (docker compose run --rm app exits 0)"
+        },
+        {
+          "rank": 8,
+          "name": "Apache Spark",
+          "category": "distributed data processing",
+          "url": "https://github.com/apache/spark",
+          "scaffold": "scaffolds/java/apache-spark",
+          "scaffold_origin": "hand-written",
+          "repo": "https://github.com/Qode-Fleet-Control/qode-apache-spark-template-v1",
+          "repo_status": "created 2026-10-05 from Qode-Fleet-Control/fleet-template-v1",
+          "kind": "job",
+          "verified": "Build check on GitHub (docker compose run --rm app exits 0)"
+        },
+        {
+          "rank": 9,
+          "name": "Netty",
+          "category": "async network I/O",
+          "url": "https://github.com/netty/netty",
+          "scaffold": "scaffolds/java/netty",
+          "scaffold_origin": "hand-written",
+          "repo": "https://github.com/Qode-Fleet-Control/qode-netty-template-v1",
+          "repo_status": "created 2026-10-05 from Qode-Fleet-Control/fleet-template-v1",
+          "kind": "http",
+          "verified": "Build check on GitHub (bin/run via docker compose: 200 at $HEALTH_PATH, restart, stop leaves nothing)"
+        },
+        {
+          "rank": 10,
+          "name": "Vert.x",
+          "category": "reactive toolkit",
+          "url": "https://github.com/eclipse-vertx/vert.x",
+          "scaffold": "scaffolds/java/vertx",
+          "scaffold_origin": "official starter API",
+          "repo": "https://github.com/Qode-Fleet-Control/qode-vertx-template-v1",
+          "repo_status": "created 2026-10-05 from Qode-Fleet-Control/fleet-template-v1",
+          "kind": "http",
+          "verified": "Build check on GitHub (bin/run via docker compose: 200 at $HEALTH_PATH, restart, stop leaves nothing)"
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "name": "C#",
+      "contributors_aug_2025": 615000,
+      "frameworks": [
+        {
+          "rank": 1,
+          "name": "ASP.NET Core",
+          "category": "web / API",
+          "url": "https://github.com/dotnet/aspnetcore",
+          "scaffold": "scaffolds/csharp/aspnetcore",
+          "scaffold_origin": "official CLI",
+          "repo": "https://github.com/Qode-Fleet-Control/qode-aspnetcore-template-v1",
+          "repo_status": "created 2026-10-05 from Qode-Fleet-Control/fleet-template-v1",
+          "kind": "http",
+          "verified": "Build check on GitHub (bin/run via docker compose: 200 at $HEALTH_PATH, restart, stop leaves nothing)"
+        },
+        {
+          "rank": 2,
+          "name": "Entity Framework Core",
+          "category": "ORM",
+          "url": "https://github.com/dotnet/efcore",
+          "scaffold": "scaffolds/csharp/efcore",
+          "scaffold_origin": "official CLI",
+          "repo": "https://github.com/Qode-Fleet-Control/qode-efcore-template-v1",
+          "repo_status": "created 2026-10-05 from Qode-Fleet-Control/fleet-template-v1",
+          "kind": "job",
+          "verified": "Build check on GitHub (docker compose run --rm app exits 0)"
+        },
+        {
+          "rank": 3,
+          "name": "Blazor",
+          "category": "web UI (part of ASP.NET Core)",
+          "url": "https://github.com/dotnet/aspnetcore",
+          "scaffold": "scaffolds/csharp/blazor",
+          "scaffold_origin": "official CLI",
+          "repo": "https://github.com/Qode-Fleet-Control/qode-blazor-template-v1",
+          "repo_status": "created 2026-10-05 from Qode-Fleet-Control/fleet-template-v1",
+          "kind": "http",
+          "verified": "Build check on GitHub (bin/run via docker compose: 200 at $HEALTH_PATH, restart, stop leaves nothing)"
+        },
+        {
+          "rank": 4,
+          "name": "Unity",
+          "category": "game engine",
+          "url": "https://unity.com/"
+        },
+        {
+          "rank": 5,
+          "name": ".NET MAUI",
+          "category": "cross-platform UI",
+          "url": "https://github.com/dotnet/maui"
+        },
+        {
+          "rank": 6,
+          "name": "WPF",
+          "category": "Windows desktop UI",
+          "url": "https://github.com/dotnet/wpf"
+        },
+        {
+          "rank": 7,
+          "name": "Avalonia",
+          "category": "cross-platform desktop UI",
+          "url": "https://github.com/AvaloniaUI/Avalonia",
+          "scaffold": "scaffolds/csharp/avalonia",
+          "scaffold_origin": "official CLI",
+          "repo": "https://github.com/Qode-Fleet-Control/qode-avalonia-template-v1",
+          "repo_status": "created 2026-10-05 from Qode-Fleet-Control/fleet-template-v1",
+          "kind": "job",
+          "verified": "Build check on GitHub (docker compose run --rm app exits 0)"
+        },
+        {
+          "rank": 8,
+          "name": "xUnit.net",
+          "category": "testing",
+          "url": "https://github.com/xunit/xunit",
+          "scaffold": "scaffolds/csharp/xunit",
+          "scaffold_origin": "official CLI",
+          "repo": "https://github.com/Qode-Fleet-Control/qode-xunit-template-v1",
+          "repo_status": "created 2026-10-05 from Qode-Fleet-Control/fleet-template-v1",
+          "kind": "job",
+          "verified": "Build check on GitHub (docker compose run --rm app exits 0)"
+        },
+        {
+          "rank": 9,
+          "name": "Dapper",
+          "category": "micro-ORM",
+          "url": "https://github.com/DapperLib/Dapper",
+          "scaffold": "scaffolds/csharp/dapper",
+          "scaffold_origin": "hand-written",
+          "repo": "https://github.com/Qode-Fleet-Control/qode-dapper-template-v1",
+          "repo_status": "created 2026-10-05 from Qode-Fleet-Control/fleet-template-v1",
+          "kind": "job",
+          "verified": "Build check on GitHub (docker compose run --rm app exits 0)"
+        },
+        {
+          "rank": 10,
+          "name": "Godot (C# bindings)",
+          "category": "game engine",
+          "url": "https://github.com/godotengine/godot"
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "name": "PHP",
+      "frameworks": [
+        {
+          "rank": 1,
+          "name": "Laravel",
+          "category": "full-stack web",
+          "url": "https://github.com/laravel/laravel",
+          "scaffold": "scaffolds/php/laravel",
+          "scaffold_origin": "official CLI",
+          "repo": "https://github.com/Qode-Fleet-Control/qode-laravel-template-v1",
+          "repo_status": "created 2026-10-05 from Qode-Fleet-Control/fleet-template-v1",
+          "kind": "http",
+          "verified": "Build check on GitHub (bin/run via docker compose: 200 at $HEALTH_PATH, restart, stop leaves nothing)"
+        },
+        {
+          "rank": 2,
+          "name": "Symfony",
+          "category": "component-based web",
+          "url": "https://github.com/symfony/symfony",
+          "scaffold": "scaffolds/php/symfony",
+          "scaffold_origin": "official CLI",
+          "repo": "https://github.com/Qode-Fleet-Control/qode-symfony-template-v1",
+          "repo_status": "created 2026-10-05 from Qode-Fleet-Control/fleet-template-v1",
+          "kind": "http",
+          "verified": "Build check on GitHub (bin/run via docker compose: 200 at $HEALTH_PATH, restart, stop leaves nothing)"
+        },
+        {
+          "rank": 3,
+          "name": "WordPress",
+          "category": "CMS platform",
+          "url": "https://github.com/WordPress/WordPress",
+          "scaffold": "scaffolds/php/wordpress",
+          "scaffold_origin": "official CLI",
+          "repo": "https://github.com/Qode-Fleet-Control/qode-wordpress-template-v1",
+          "repo_status": "created 2026-10-05 from Qode-Fleet-Control/fleet-template-v1",
+          "kind": "http",
+          "verified": "Build check on GitHub (bin/run via docker compose: 200 at $HEALTH_PATH, restart, stop leaves nothing)"
+        },
+        {
+          "rank": 4,
+          "name": "CodeIgniter",
+          "category": "lightweight MVC",
+          "url": "https://github.com/codeigniter4/CodeIgniter4",
+          "scaffold": "scaffolds/php/codeigniter",
+          "scaffold_origin": "official CLI",
+          "repo": "https://github.com/Qode-Fleet-Control/qode-codeigniter-template-v1",
+          "repo_status": "created 2026-10-05 from Qode-Fleet-Control/fleet-template-v1",
+          "kind": "http",
+          "verified": "Build check on GitHub (bin/run via docker compose: 200 at $HEALTH_PATH, restart, stop leaves nothing)"
+        },
+        {
+          "rank": 5,
+          "name": "Slim",
+          "category": "microframework",
+          "url": "https://github.com/slimphp/Slim",
+          "scaffold": "scaffolds/php/slim",
+          "scaffold_origin": "official CLI",
+          "repo": "https://github.com/Qode-Fleet-Control/qode-slim-template-v1",
+          "repo_status": "created 2026-10-05 from Qode-Fleet-Control/fleet-template-v1",
+          "kind": "http",
+          "verified": "Build check on GitHub (bin/run via docker compose: 200 at $HEALTH_PATH, restart, stop leaves nothing)"
+        },
+        {
+          "rank": 6,
+          "name": "Yii",
+          "category": "full-stack web",
+          "url": "https://github.com/yiisoft/yii2",
+          "scaffold": "scaffolds/php/yii",
+          "scaffold_origin": "official CLI",
+          "repo": "https://github.com/Qode-Fleet-Control/qode-yii-template-v1",
+          "repo_status": "created 2026-10-05 from Qode-Fleet-Control/fleet-template-v1",
+          "kind": "http",
+          "verified": "Build check on GitHub (bin/run via docker compose: 200 at $HEALTH_PATH, restart, stop leaves nothing)"
+        },
+        {
+          "rank": 7,
+          "name": "Laminas (ex Zend)",
+          "category": "enterprise components",
+          "url": "https://github.com/laminas",
+          "scaffold": "scaffolds/php/laminas",
+          "scaffold_origin": "official CLI",
+          "repo": "https://github.com/Qode-Fleet-Control/qode-laminas-template-v1",
+          "repo_status": "created 2026-10-05 from Qode-Fleet-Control/fleet-template-v1",
+          "kind": "http",
+          "verified": "Build check on GitHub (bin/run via docker compose: 200 at $HEALTH_PATH, restart, stop leaves nothing)"
+        },
+        {
+          "rank": 8,
+          "name": "CakePHP",
+          "category": "convention-based MVC",
+          "url": "https://github.com/cakephp/cakephp",
+          "scaffold": "scaffolds/php/cakephp",
+          "scaffold_origin": "official CLI",
+          "repo": "https://github.com/Qode-Fleet-Control/qode-cakephp-template-v1",
+          "repo_status": "created 2026-10-05 from Qode-Fleet-Control/fleet-template-v1",
+          "kind": "http",
+          "verified": "Build check on GitHub (bin/run via docker compose: 200 at $HEALTH_PATH, restart, stop leaves nothing)"
+        },
+        {
+          "rank": 9,
+          "name": "PHPUnit",
+          "category": "testing",
+          "url": "https://github.com/sebastianbergmann/phpunit",
+          "scaffold": "scaffolds/php/phpunit",
+          "scaffold_origin": "official CLI",
+          "repo": "https://github.com/Qode-Fleet-Control/qode-phpunit-template-v1",
+          "repo_status": "created 2026-10-05 from Qode-Fleet-Control/fleet-template-v1",
+          "kind": "job",
+          "verified": "Build check on GitHub (docker compose run --rm app exits 0)"
+        },
+        {
+          "rank": 10,
+          "name": "Drupal",
+          "category": "CMS platform",
+          "url": "https://github.com/drupal/drupal",
+          "scaffold": "scaffolds/php/drupal",
+          "scaffold_origin": "official CLI",
+          "repo": "https://github.com/Qode-Fleet-Control/qode-drupal-template-v1",
+          "repo_status": "created 2026-10-05 from Qode-Fleet-Control/fleet-template-v1",
+          "kind": "http",
+          "verified": "Build check on GitHub (bin/run via docker compose: 200 at $HEALTH_PATH, restart, stop leaves nothing)"
+        }
+      ]
+    },
+    {
+      "rank": 7,
+      "name": "Shell",
+      "frameworks": [
+        {
+          "rank": 1,
+          "name": "Oh My Zsh",
+          "category": "zsh configuration framework",
+          "url": "https://github.com/ohmyzsh/ohmyzsh",
+          "scaffold": "scaffolds/shell/oh-my-zsh",
+          "scaffold_origin": "official CLI",
+          "repo": "https://github.com/Qode-Fleet-Control/qode-oh-my-zsh-template-v1",
+          "repo_status": "created 2026-10-05 from Qode-Fleet-Control/fleet-template-v1",
+          "kind": "job",
+          "verified": "Build check on GitHub (docker compose run --rm app exits 0)"
+        },
+        {
+          "rank": 2,
+          "name": "Bats-core",
+          "category": "bash testing",
+          "url": "https://github.com/bats-core/bats-core",
+          "scaffold": "scaffolds/shell/bats-core",
+          "scaffold_origin": "hand-written",
+          "repo": "https://github.com/Qode-Fleet-Control/qode-bats-core-template-v1",
+          "repo_status": "created 2026-10-05 from Qode-Fleet-Control/fleet-template-v1",
+          "kind": "job",
+          "verified": "Build check on GitHub (docker compose run --rm app exits 0)"
+        },
+        {
+          "rank": 3,
+          "name": "Starship",
+          "category": "cross-shell prompt",
+          "url": "https://github.com/starship/starship",
+          "scaffold": "scaffolds/shell/starship",
+          "scaffold_origin": "official CLI",
+          "repo": "https://github.com/Qode-Fleet-Control/qode-starship-template-v1",
+          "repo_status": "created 2026-10-05 from Qode-Fleet-Control/fleet-template-v1",
+          "kind": "job",
+          "verified": "Build check on GitHub (docker compose run --rm app exits 0)"
+        },
+        {
+          "rank": 4,
+          "name": "Oh My Bash",
+          "category": "bash configuration framework",
+          "url": "https://github.com/ohmybash/oh-my-bash",
+          "scaffold": "scaffolds/shell/oh-my-bash",
+          "scaffold_origin": "official CLI",
+          "repo": "https://github.com/Qode-Fleet-Control/qode-oh-my-bash-template-v1",
+          "repo_status": "created 2026-10-05 from Qode-Fleet-Control/fleet-template-v1",
+          "kind": "job",
+          "verified": "Build check on GitHub (docker compose run --rm app exits 0)"
+        },
+        {
+          "rank": 5,
+          "name": "Prezto",
+          "category": "zsh configuration framework",
+          "url": "https://github.com/sorin-ionescu/prezto",
+          "scaffold": "scaffolds/shell/prezto",
+          "scaffold_origin": "official CLI",
+          "repo": "https://github.com/Qode-Fleet-Control/qode-prezto-template-v1",
+          "repo_status": "created 2026-10-05 from Qode-Fleet-Control/fleet-template-v1",
+          "kind": "job",
+          "verified": "Build check on GitHub (docker compose run --rm app exits 0)"
+        },
+        {
+          "rank": 6,
+          "name": "Homebrew",
+          "category": "package manager written in shell/Ruby",
+          "url": "https://github.com/Homebrew/brew",
+          "scaffold": "scaffolds/shell/homebrew",
+          "scaffold_origin": "official CLI",
+          "repo": "https://github.com/Qode-Fleet-Control/qode-homebrew-template-v1",
+          "repo_status": "created 2026-10-05 from Qode-Fleet-Control/fleet-template-v1",
+          "kind": "job",
+          "verified": "Build check on GitHub (docker compose run --rm app exits 0)"
+        },
+        {
+          "rank": 7,
+          "name": "ShellSpec",
+          "category": "BDD testing",
+          "url": "https://github.com/shellspec/shellspec",
+          "scaffold": "scaffolds/shell/shellspec",
+          "scaffold_origin": "official CLI",
+          "repo": "https://github.com/Qode-Fleet-Control/qode-shellspec-template-v1",
+          "repo_status": "created 2026-10-05 from Qode-Fleet-Control/fleet-template-v1",
+          "kind": "job",
+          "verified": "Build check on GitHub (docker compose run --rm app exits 0)"
+        },
+        {
+          "rank": 8,
+          "name": "bash-it",
+          "category": "bash configuration framework",
+          "url": "https://github.com/Bash-it/bash-it",
+          "scaffold": "scaffolds/shell/bash-it",
+          "scaffold_origin": "official CLI",
+          "repo": "https://github.com/Qode-Fleet-Control/qode-bash-it-template-v1",
+          "repo_status": "created 2026-10-05 from Qode-Fleet-Control/fleet-template-v1",
+          "kind": "job",
+          "verified": "Build check on GitHub (docker compose run --rm app exits 0)"
+        },
+        {
+          "rank": 9,
+          "name": "shUnit2",
+          "category": "xUnit-style testing",
+          "url": "https://github.com/kward/shunit2",
+          "scaffold": "scaffolds/shell/shunit2",
+          "scaffold_origin": "hand-written",
+          "repo": "https://github.com/Qode-Fleet-Control/qode-shunit2-template-v1",
+          "repo_status": "created 2026-10-05 from Qode-Fleet-Control/fleet-template-v1",
+          "kind": "job",
+          "verified": "Build check on GitHub (docker compose run --rm app exits 0)"
+        },
+        {
+          "rank": 10,
+          "name": "Fisher (fish)",
+          "category": "fish plugin manager",
+          "url": "https://github.com/jorgebucaran/fisher",
+          "scaffold": "scaffolds/shell/fisher",
+          "scaffold_origin": "hand-written",
+          "repo": "https://github.com/Qode-Fleet-Control/qode-fisher-template-v1",
+          "repo_status": "created 2026-10-05 from Qode-Fleet-Control/fleet-template-v1",
+          "kind": "job",
+          "verified": "Build check on GitHub (docker compose run --rm app exits 0)"
+        }
+      ],
+      "note": "Shell has no application frameworks in the usual sense; these are the dominant shell configuration, plugin and test frameworks."
+    },
+    {
+      "rank": 8,
+      "name": "C++",
+      "frameworks": [
+        {
+          "rank": 1,
+          "name": "Qt",
+          "category": "cross-platform GUI/application",
+          "url": "https://github.com/qt",
+          "scaffold": "scaffolds/cpp/qt",
+          "scaffold_origin": "hand-written",
+          "repo": "https://github.com/Qode-Fleet-Control/qode-qt-template-v1",
+          "repo_status": "created 2026-10-05 from Qode-Fleet-Control/fleet-template-v1",
+          "kind": "http",
+          "verified": "Build check on GitHub (bin/run via docker compose: 200 at $HEALTH_PATH, restart, stop leaves nothing)"
+        },
+        {
+          "rank": 2,
+          "name": "Boost",
+          "category": "general-purpose libraries",
+          "url": "https://github.com/boostorg/boost",
+          "scaffold": "scaffolds/cpp/boost",
+          "scaffold_origin": "hand-written",
+          "repo": "https://github.com/Qode-Fleet-Control/qode-boost-template-v1",
+          "repo_status": "created 2026-10-05 from Qode-Fleet-Control/fleet-template-v1",
+          "kind": "http",
+          "verified": "Build check on GitHub (bin/run via docker compose: 200 at $HEALTH_PATH, restart, stop leaves nothing)"
+        },
+        {
+          "rank": 3,
+          "name": "Unreal Engine",
+          "category": "game engine",
+          "url": "https://github.com/EpicGames/UnrealEngine"
+        },
+        {
+          "rank": 4,
+          "name": "OpenCV",
+          "category": "computer vision",
+          "url": "https://github.com/opencv/opencv",
+          "scaffold": "scaffolds/cpp/opencv",
+          "scaffold_origin": "hand-written",
+          "repo": "https://github.com/Qode-Fleet-Control/qode-opencv-template-v1",
+          "repo_status": "created 2026-10-05 from Qode-Fleet-Control/fleet-template-v1",
+          "kind": "job",
+          "verified": "Build check on GitHub (docker compose run --rm app exits 0)"
+        },
+        {
+          "rank": 5,
+          "name": "gRPC",
+          "category": "RPC framework",
+          "url": "https://github.com/grpc/grpc",
+          "scaffold": "scaffolds/cpp/grpc",
+          "scaffold_origin": "hand-written",
+          "repo": "https://github.com/Qode-Fleet-Control/qode-grpc-template-v1",
+          "repo_status": "created 2026-10-05 from Qode-Fleet-Control/fleet-template-v1",
+          "kind": "http",
+          "verified": "Build check on GitHub (bin/run via docker compose: 200 at $HEALTH_PATH, restart, stop leaves nothing)"
+        },
+        {
+          "rank": 6,
+          "name": "GoogleTest",
+          "category": "testing",
+          "url": "https://github.com/google/googletest",
+          "scaffold": "scaffolds/cpp/googletest",
+          "scaffold_origin": "hand-written",
+          "repo": "https://github.com/Qode-Fleet-Control/qode-googletest-template-v1",
+          "repo_status": "created 2026-10-05 from Qode-Fleet-Control/fleet-template-v1",
+          "kind": "job",
+          "verified": "Build check on GitHub (docker compose run --rm app exits 0)"
+        },
+        {
+          "rank": 7,
+          "name": "Eigen",
+          "category": "linear algebra",
+          "url": "https://gitlab.com/libeigen/eigen",
+          "scaffold": "scaffolds/cpp/eigen",
+          "scaffold_origin": "hand-written",
+          "repo": "https://github.com/Qode-Fleet-Control/qode-eigen-template-v1",
+          "repo_status": "created 2026-10-05 from Qode-Fleet-Control/fleet-template-v1",
+          "kind": "job",
+          "verified": "Build check on GitHub (docker compose run --rm app exits 0)"
+        },
+        {
+          "rank": 8,
+          "name": "Drogon",
+          "category": "async web/HTTP",
+          "url": "https://github.com/drogonframework/drogon",
+          "scaffold": "scaffolds/cpp/drogon",
+          "scaffold_origin": "official CLI",
+          "repo": "https://github.com/Qode-Fleet-Control/qode-drogon-template-v1",
+          "repo_status": "created 2026-10-05 from Qode-Fleet-Control/fleet-template-v1",
+          "kind": "http",
+          "verified": "Build check on GitHub (bin/run via docker compose: 200 at $HEALTH_PATH, restart, stop leaves nothing)"
+        },
+        {
+          "rank": 9,
+          "name": "POCO",
+          "category": "network/application libraries",
+          "url": "https://github.com/pocoproject/poco",
+          "scaffold": "scaffolds/cpp/poco",
+          "scaffold_origin": "hand-written",
+          "repo": "https://github.com/Qode-Fleet-Control/qode-poco-template-v1",
+          "repo_status": "created 2026-10-05 from Qode-Fleet-Control/fleet-template-v1",
+          "kind": "http",
+          "verified": "Build check on GitHub (bin/run via docker compose: 200 at $HEALTH_PATH, restart, stop leaves nothing)"
+        },
+        {
+          "rank": 10,
+          "name": "Catch2",
+          "category": "testing",
+          "url": "https://github.com/catchorg/Catch2",
+          "scaffold": "scaffolds/cpp/catch2",
+          "scaffold_origin": "hand-written",
+          "repo": "https://github.com/Qode-Fleet-Control/qode-catch2-template-v1",
+          "repo_status": "created 2026-10-05 from Qode-Fleet-Control/fleet-template-v1",
+          "kind": "job",
+          "verified": "Build check on GitHub (docker compose run --rm app exits 0)"
+        }
+      ]
+    },
+    {
+      "rank": 9,
+      "name": "HCL",
+      "frameworks": [
+        {
+          "rank": 1,
+          "name": "Terraform",
+          "category": "infrastructure as code",
+          "url": "https://github.com/hashicorp/terraform",
+          "scaffold": "scaffolds/hcl/terraform",
+          "scaffold_origin": "hand-written",
+          "repo": "https://github.com/Qode-Fleet-Control/qode-terraform-template-v1",
+          "repo_status": "created 2026-10-05 from Qode-Fleet-Control/fleet-template-v1",
+          "kind": "job",
+          "verified": "Build check on GitHub (docker compose run --rm app exits 0)"
+        },
+        {
+          "rank": 2,
+          "name": "OpenTofu",
+          "category": "infrastructure as code (Terraform fork)",
+          "url": "https://github.com/opentofu/opentofu",
+          "scaffold": "scaffolds/hcl/opentofu",
+          "scaffold_origin": "hand-written",
+          "repo": "https://github.com/Qode-Fleet-Control/qode-opentofu-template-v1",
+          "repo_status": "created 2026-10-05 from Qode-Fleet-Control/fleet-template-v1",
+          "kind": "job",
+          "verified": "Build check on GitHub (docker compose run --rm app exits 0)"
+        },
+        {
+          "rank": 3,
+          "name": "Terragrunt",
+          "category": "Terraform orchestration wrapper",
+          "url": "https://github.com/gruntwork-io/terragrunt",
+          "scaffold": "scaffolds/hcl/terragrunt",
+          "scaffold_origin": "official CLI",
+          "repo": "https://github.com/Qode-Fleet-Control/qode-terragrunt-template-v1",
+          "repo_status": "created 2026-10-05 from Qode-Fleet-Control/fleet-template-v1",
+          "kind": "job",
+          "verified": "Build check on GitHub (docker compose run --rm app exits 0)"
+        },
+        {
+          "rank": 4,
+          "name": "Terraform AWS Modules",
+          "category": "reusable module collection",
+          "url": "https://github.com/terraform-aws-modules",
+          "scaffold": "scaffolds/hcl/terraform-aws-modules",
+          "scaffold_origin": "hand-written",
+          "repo": "https://github.com/Qode-Fleet-Control/qode-terraform-aws-modules-template-v1",
+          "repo_status": "created 2026-10-05 from Qode-Fleet-Control/fleet-template-v1",
+          "kind": "job",
+          "verified": "Build check on GitHub (docker compose run --rm app exits 0)"
+        },
+        {
+          "rank": 5,
+          "name": "Packer",
+          "category": "machine image build",
+          "url": "https://github.com/hashicorp/packer",
+          "scaffold": "scaffolds/hcl/packer",
+          "scaffold_origin": "hand-written",
+          "repo": "https://github.com/Qode-Fleet-Control/qode-packer-template-v1",
+          "repo_status": "created 2026-10-05 from Qode-Fleet-Control/fleet-template-v1",
+          "kind": "job",
+          "verified": "Build check on GitHub (docker compose run --rm app exits 0)"
+        },
+        {
+          "rank": 6,
+          "name": "Nomad job spec",
+          "category": "workload scheduling",
+          "url": "https://github.com/hashicorp/nomad",
+          "scaffold": "scaffolds/hcl/nomad",
+          "scaffold_origin": "hand-written",
+          "repo": "https://github.com/Qode-Fleet-Control/qode-nomad-template-v1",
+          "repo_status": "created 2026-10-05 from Qode-Fleet-Control/fleet-template-v1",
+          "kind": "job",
+          "verified": "Build check on GitHub (docker compose run --rm app exits 0)"
+        },
+        {
+          "rank": 7,
+          "name": "Consul config",
+          "category": "service mesh / discovery",
+          "url": "https://github.com/hashicorp/consul",
+          "scaffold": "scaffolds/hcl/consul",
+          "scaffold_origin": "hand-written",
+          "repo": "https://github.com/Qode-Fleet-Control/qode-consul-template-v1",
+          "repo_status": "created 2026-10-05 from Qode-Fleet-Control/fleet-template-v1",
+          "kind": "job",
+          "verified": "Build check on GitHub (docker compose run --rm app exits 0)"
+        },
+        {
+          "rank": 8,
+          "name": "Vault policies/config",
+          "category": "secrets management",
+          "url": "https://github.com/hashicorp/vault",
+          "scaffold": "scaffolds/hcl/vault",
+          "scaffold_origin": "hand-written",
+          "repo": "https://github.com/Qode-Fleet-Control/qode-vault-template-v1",
+          "repo_status": "created 2026-10-05 from Qode-Fleet-Control/fleet-template-v1",
+          "kind": "job",
+          "verified": "Build check on GitHub (docker compose run --rm app exits 0)"
+        },
+        {
+          "rank": 9,
+          "name": "Terratest",
+          "category": "IaC testing",
+          "url": "https://github.com/gruntwork-io/terratest",
+          "scaffold": "scaffolds/hcl/terratest",
+          "scaffold_origin": "hand-written",
+          "repo": "https://github.com/Qode-Fleet-Control/qode-terratest-template-v1",
+          "repo_status": "created 2026-10-05 from Qode-Fleet-Control/fleet-template-v1",
+          "kind": "job",
+          "verified": "Build check on GitHub (docker compose run --rm app exits 0)"
+        },
+        {
+          "rank": 10,
+          "name": "tflint",
+          "category": "linting / static analysis",
+          "url": "https://github.com/terraform-linters/tflint",
+          "scaffold": "scaffolds/hcl/tflint",
+          "scaffold_origin": "hand-written",
+          "repo": "https://github.com/Qode-Fleet-Control/qode-tflint-template-v1",
+          "repo_status": "created 2026-10-05 from Qode-Fleet-Control/fleet-template-v1",
+          "kind": "job",
+          "verified": "Build check on GitHub (docker compose run --rm app exits 0)"
+        }
+      ],
+      "note": "HCL is a configuration language; these are the HashiCorp-ecosystem tools and module collections that HCL is written for."
+    },
+    {
+      "rank": 10,
+      "name": "Go",
+      "frameworks": [
+        {
+          "rank": 1,
+          "name": "Gin",
+          "category": "web/HTTP",
+          "url": "https://github.com/gin-gonic/gin",
+          "scaffold": "scaffolds/go/gin",
+          "scaffold_origin": "hand-written (no official generator)",
+          "repo": "https://github.com/Qode-Fleet-Control/qode-gin-template-v1",
+          "repo_status": "created 2026-09-21 from Qode-Fleet-Control/fleet-template-v1",
+          "verified": "go build + go test pass locally; image built and pushed by CI"
+        },
+        {
+          "rank": 2,
+          "name": "Echo",
+          "category": "web/HTTP",
+          "url": "https://github.com/labstack/echo",
+          "scaffold": "scaffolds/go/echo",
+          "scaffold_origin": "hand-written (no official generator)",
+          "repo": "https://github.com/Qode-Fleet-Control/qode-echo-template-v1",
+          "repo_status": "created 2026-09-21 from Qode-Fleet-Control/fleet-template-v1",
+          "verified": "go build + go test pass locally; image built and pushed by CI"
+        },
+        {
+          "rank": 3,
+          "name": "Fiber",
+          "category": "web/HTTP (fasthttp)",
+          "url": "https://github.com/gofiber/fiber",
+          "scaffold": "scaffolds/go/fiber",
+          "scaffold_origin": "hand-written (no official generator)",
+          "repo": "https://github.com/Qode-Fleet-Control/qode-fiber-template-v1",
+          "repo_status": "created 2026-09-21 from Qode-Fleet-Control/fleet-template-v1",
+          "verified": "go build + go test pass locally; image built and pushed by CI"
+        },
+        {
+          "rank": 4,
+          "name": "Chi",
+          "category": "HTTP router",
+          "url": "https://github.com/go-chi/chi",
+          "scaffold": "scaffolds/go/chi",
+          "scaffold_origin": "hand-written (no official generator)",
+          "repo": "https://github.com/Qode-Fleet-Control/qode-chi-template-v1",
+          "repo_status": "created 2026-09-21 from Qode-Fleet-Control/fleet-template-v1",
+          "verified": "go build + go test pass locally; image built and pushed by CI"
+        },
+        {
+          "rank": 5,
+          "name": "gRPC-Go",
+          "category": "RPC",
+          "url": "https://github.com/grpc/grpc-go",
+          "scaffold": "scaffolds/go/grpc-go",
+          "scaffold_origin": "hand-written (no official generator)",
+          "repo": "https://github.com/Qode-Fleet-Control/qode-grpc-go-template-v1",
+          "repo_status": "created 2026-09-21 from Qode-Fleet-Control/fleet-template-v1",
+          "verified": "go build + go test pass locally; image built and pushed by CI"
+        },
+        {
+          "rank": 6,
+          "name": "Cobra",
+          "category": "CLI applications",
+          "url": "https://github.com/spf13/cobra",
+          "scaffold": "scaffolds/go/cobra",
+          "scaffold_origin": "hand-written (no official generator)",
+          "repo": "https://github.com/Qode-Fleet-Control/qode-cobra-template-v1",
+          "repo_status": "created 2026-09-21 from Qode-Fleet-Control/fleet-template-v1",
+          "verified": "go build + go test pass locally; image built and pushed by CI"
+        },
+        {
+          "rank": 7,
+          "name": "GORM",
+          "category": "ORM",
+          "url": "https://github.com/go-gorm/gorm",
+          "scaffold": "scaffolds/go/gorm",
+          "scaffold_origin": "hand-written (no official generator)",
+          "repo": "https://github.com/Qode-Fleet-Control/qode-gorm-template-v1",
+          "repo_status": "created 2026-09-21 from Qode-Fleet-Control/fleet-template-v1",
+          "verified": "go build + go test pass locally; image built and pushed by CI"
+        },
+        {
+          "rank": 8,
+          "name": "Kubernetes client-go / controller-runtime",
+          "category": "operators and controllers",
+          "url": "https://github.com/kubernetes-sigs/controller-runtime",
+          "scaffold": "scaffolds/go/controller-runtime",
+          "scaffold_origin": "hand-written (no official generator)",
+          "repo": "https://github.com/Qode-Fleet-Control/qode-controller-runtime-template-v1",
+          "repo_status": "created 2026-09-21 from Qode-Fleet-Control/fleet-template-v1",
+          "verified": "go build + go test pass locally; image built and pushed by CI"
+        },
+        {
+          "rank": 9,
+          "name": "Testify",
+          "category": "testing",
+          "url": "https://github.com/stretchr/testify",
+          "scaffold": "scaffolds/go/testify",
+          "scaffold_origin": "hand-written (no official generator)",
+          "repo": "https://github.com/Qode-Fleet-Control/qode-testify-template-v1",
+          "repo_status": "created 2026-09-21 from Qode-Fleet-Control/fleet-template-v1",
+          "verified": "go build + go test pass locally; image built and pushed by CI"
+        },
+        {
+          "rank": 10,
+          "name": "Buffalo",
+          "category": "full-stack web",
+          "url": "https://github.com/gobuffalo/buffalo",
+          "scaffold": "scaffolds/go/buffalo",
+          "scaffold_origin": "hand-written (no official generator)",
+          "repo": "https://github.com/Qode-Fleet-Control/qode-buffalo-template-v1",
+          "repo_status": "created 2026-09-21 from Qode-Fleet-Control/fleet-template-v1",
+          "verified": "go build + go test pass locally; image built and pushed by CI"
+        }
+      ]
+    }
+  ],
+  "scaffolds": {
+    "path": "scaffolds/",
+    "covers": "the top 10 frameworks of the top 10 languages: 95 starter projects (5 cannot run in a Linux container: WPF, .NET MAUI, Unity, Unreal Engine, Godot), plus the fleet's own full-stack TypeScript starter (fleet-scaffold-v1)",
+    "generated": "2026-09-21",
+    "state": "files only - no dependencies installed, nothing built or run",
+    "readme": "scaffolds/README.md",
+    "github": {
+      "org": "Qode-Fleet-Control",
+      "moved": "2026-10-05 from Qode-Platform (GitHub transfer; old URLs redirect)",
+      "provisioned_from": "Qode-Fleet-Control/fleet-template-v1 (template repo)",
+      "created": 94,
+      "visibility": "public",
+      "note": "nestjs was left to the pre-existing qode-nestjs-template-v1, which was not touched"
+    },
+    "verified": "every scaffold repo runs a Build check (.github/workflows/build.yml) on each push and pull request: HTTP templates through bin/run (docker compose) to 200 at HEALTH_PATH, restart, stop; job templates via docker compose run --rm app"
+  }
+}

@@ -1,0 +1,291 @@
+[submodule "typescript/react"]
+	path = typescript/react
+	url = git@github.com:Qode-Fleet-Control/qode-react-template-v1.git
+[submodule "typescript/nextjs"]
+	path = typescript/nextjs
+	url = git@github.com:Qode-Fleet-Control/qode-nextjs-template-v1.git
+[submodule "typescript/angular"]
+	path = typescript/angular
+	url = git@github.com:Qode-Fleet-Control/qode-angular-template-v1.git
+[submodule "typescript/vue"]
+	path = typescript/vue
+	url = git@github.com:Qode-Fleet-Control/qode-vue-template-v1.git
+[submodule "typescript/nestjs"]
+	path = typescript/nestjs
+	url = git@github.com:Qode-Fleet-Control/qode-nestjs-template-v1.git
+[submodule "typescript/sveltekit"]
+	path = typescript/sveltekit
+	url = git@github.com:Qode-Fleet-Control/qode-sveltekit-template-v1.git
+[submodule "typescript/astro"]
+	path = typescript/astro
+	url = git@github.com:Qode-Fleet-Control/qode-astro-template-v1.git
+[submodule "typescript/react-router"]
+	path = typescript/react-router
+	url = git@github.com:Qode-Fleet-Control/qode-react-router-template-v1.git
+[submodule "typescript/trpc"]
+	path = typescript/trpc
+	url = git@github.com:Qode-Fleet-Control/qode-trpc-template-v1.git
+[submodule "typescript/nuxt"]
+	path = typescript/nuxt
+	url = git@github.com:Qode-Fleet-Control/qode-nuxt-template-v1.git
+[submodule "typescript/fleet-scaffold"]
+	path = typescript/fleet-scaffold
+	url = git@github.com:Qode-Fleet-Control/fleet-scaffold-v1.git
+[submodule "python/django"]
+	path = python/django
+	url = git@github.com:Qode-Fleet-Control/qode-django-template-v1.git
+[submodule "python/fastapi"]
+	path = python/fastapi
+	url = git@github.com:Qode-Fleet-Control/qode-fastapi-template-v1.git
+[submodule "python/flask"]
+	path = python/flask
+	url = git@github.com:Qode-Fleet-Control/qode-flask-template-v1.git
+[submodule "python/pytorch"]
+	path = python/pytorch
+	url = git@github.com:Qode-Fleet-Control/qode-pytorch-template-v1.git
+[submodule "python/tensorflow-keras"]
+	path = python/tensorflow-keras
+	url = git@github.com:Qode-Fleet-Control/qode-tensorflow-keras-template-v1.git
+[submodule "python/langchain"]
+	path = python/langchain
+	url = git@github.com:Qode-Fleet-Control/qode-langchain-template-v1.git
+[submodule "python/pandas"]
+	path = python/pandas
+	url = git@github.com:Qode-Fleet-Control/qode-pandas-template-v1.git
+[submodule "python/scikit-learn"]
+	path = python/scikit-learn
+	url = git@github.com:Qode-Fleet-Control/qode-scikit-learn-template-v1.git
+[submodule "python/pytest"]
+	path = python/pytest
+	url = git@github.com:Qode-Fleet-Control/qode-pytest-template-v1.git
+[submodule "python/scrapy"]
+	path = python/scrapy
+	url = git@github.com:Qode-Fleet-Control/qode-scrapy-template-v1.git
+[submodule "javascript/react-js"]
+	path = javascript/react-js
+	url = git@github.com:Qode-Fleet-Control/qode-react-js-template-v1.git
+[submodule "javascript/express"]
+	path = javascript/express
+	url = git@github.com:Qode-Fleet-Control/qode-express-template-v1.git
+[submodule "javascript/vue-js"]
+	path = javascript/vue-js
+	url = git@github.com:Qode-Fleet-Control/qode-vue-js-template-v1.git
+[submodule "javascript/nextjs-js"]
+	path = javascript/nextjs-js
+	url = git@github.com:Qode-Fleet-Control/qode-nextjs-js-template-v1.git
+[submodule "javascript/svelte"]
+	path = javascript/svelte
+	url = git@github.com:Qode-Fleet-Control/qode-svelte-template-v1.git
+[submodule "javascript/electron"]
+	path = javascript/electron
+	url = git@github.com:Qode-Fleet-Control/qode-electron-template-v1.git
+[submodule "javascript/jquery"]
+	path = javascript/jquery
+	url = git@github.com:Qode-Fleet-Control/qode-jquery-template-v1.git
+[submodule "javascript/jest"]
+	path = javascript/jest
+	url = git@github.com:Qode-Fleet-Control/qode-jest-template-v1.git
+[submodule "javascript/fastify"]
+	path = javascript/fastify
+	url = git@github.com:Qode-Fleet-Control/qode-fastify-template-v1.git
+[submodule "javascript/threejs"]
+	path = javascript/threejs
+	url = git@github.com:Qode-Fleet-Control/qode-threejs-template-v1.git
+[submodule "java/spring-boot"]
+	path = java/spring-boot
+	url = git@github.com:Qode-Fleet-Control/qode-spring-boot-template-v1.git
+[submodule "java/spring-framework"]
+	path = java/spring-framework
+	url = git@github.com:Qode-Fleet-Control/qode-spring-framework-template-v1.git
+[submodule "java/quarkus"]
+	path = java/quarkus
+	url = git@github.com:Qode-Fleet-Control/qode-quarkus-template-v1.git
+[submodule "java/micronaut"]
+	path = java/micronaut
+	url = git@github.com:Qode-Fleet-Control/qode-micronaut-template-v1.git
+[submodule "java/hibernate-orm"]
+	path = java/hibernate-orm
+	url = git@github.com:Qode-Fleet-Control/qode-hibernate-orm-template-v1.git
+[submodule "java/jakarta-ee"]
+	path = java/jakarta-ee
+	url = git@github.com:Qode-Fleet-Control/qode-jakarta-ee-template-v1.git
+[submodule "java/junit5"]
+	path = java/junit5
+	url = git@github.com:Qode-Fleet-Control/qode-junit5-template-v1.git
+[submodule "java/apache-spark"]
+	path = java/apache-spark
+	url = git@github.com:Qode-Fleet-Control/qode-apache-spark-template-v1.git
+[submodule "java/netty"]
+	path = java/netty
+	url = git@github.com:Qode-Fleet-Control/qode-netty-template-v1.git
+[submodule "java/vertx"]
+	path = java/vertx
+	url = git@github.com:Qode-Fleet-Control/qode-vertx-template-v1.git
+[submodule "csharp/aspnetcore"]
+	path = csharp/aspnetcore
+	url = git@github.com:Qode-Fleet-Control/qode-aspnetcore-template-v1.git
+[submodule "csharp/efcore"]
+	path = csharp/efcore
+	url = git@github.com:Qode-Fleet-Control/qode-efcore-template-v1.git
+[submodule "csharp/blazor"]
+	path = csharp/blazor
+	url = git@github.com:Qode-Fleet-Control/qode-blazor-template-v1.git
+[submodule "csharp/avalonia"]
+	path = csharp/avalonia
+	url = git@github.com:Qode-Fleet-Control/qode-avalonia-template-v1.git
+[submodule "csharp/xunit"]
+	path = csharp/xunit
+	url = git@github.com:Qode-Fleet-Control/qode-xunit-template-v1.git
+[submodule "csharp/dapper"]
+	path = csharp/dapper
+	url = git@github.com:Qode-Fleet-Control/qode-dapper-template-v1.git
+[submodule "php/laravel"]
+	path = php/laravel
+	url = git@github.com:Qode-Fleet-Control/qode-laravel-template-v1.git
+[submodule "php/symfony"]
+	path = php/symfony
+	url = git@github.com:Qode-Fleet-Control/qode-symfony-template-v1.git
+[submodule "php/wordpress"]
+	path = php/wordpress
+	url = git@github.com:Qode-Fleet-Control/qode-wordpress-template-v1.git
+[submodule "php/codeigniter"]
+	path = php/codeigniter
+	url = git@github.com:Qode-Fleet-Control/qode-codeigniter-template-v1.git
+[submodule "php/slim"]
+	path = php/slim
+	url = git@github.com:Qode-Fleet-Control/qode-slim-template-v1.git
+[submodule "php/yii"]
+	path = php/yii
+	url = git@github.com:Qode-Fleet-Control/qode-yii-template-v1.git
+[submodule "php/laminas"]
+	path = php/laminas
+	url = git@github.com:Qode-Fleet-Control/qode-laminas-template-v1.git
+[submodule "php/cakephp"]
+	path = php/cakephp
+	url = git@github.com:Qode-Fleet-Control/qode-cakephp-template-v1.git
+[submodule "php/phpunit"]
+	path = php/phpunit
+	url = git@github.com:Qode-Fleet-Control/qode-phpunit-template-v1.git
+[submodule "php/drupal"]
+	path = php/drupal
+	url = git@github.com:Qode-Fleet-Control/qode-drupal-template-v1.git
+[submodule "shell/oh-my-zsh"]
+	path = shell/oh-my-zsh
+	url = git@github.com:Qode-Fleet-Control/qode-oh-my-zsh-template-v1.git
+[submodule "shell/bats-core"]
+	path = shell/bats-core
+	url = git@github.com:Qode-Fleet-Control/qode-bats-core-template-v1.git
+[submodule "shell/starship"]
+	path = shell/starship
+	url = git@github.com:Qode-Fleet-Control/qode-starship-template-v1.git
+[submodule "shell/oh-my-bash"]
+	path = shell/oh-my-bash
+	url = git@github.com:Qode-Fleet-Control/qode-oh-my-bash-template-v1.git
+[submodule "shell/prezto"]
+	path = shell/prezto
+	url = git@github.com:Qode-Fleet-Control/qode-prezto-template-v1.git
+[submodule "shell/homebrew"]
+	path = shell/homebrew
+	url = git@github.com:Qode-Fleet-Control/qode-homebrew-template-v1.git
+[submodule "shell/shellspec"]
+	path = shell/shellspec
+	url = git@github.com:Qode-Fleet-Control/qode-shellspec-template-v1.git
+[submodule "shell/bash-it"]
+	path = shell/bash-it
+	url = git@github.com:Qode-Fleet-Control/qode-bash-it-template-v1.git
+[submodule "shell/shunit2"]
+	path = shell/shunit2
+	url = git@github.com:Qode-Fleet-Control/qode-shunit2-template-v1.git
+[submodule "shell/fisher"]
+	path = shell/fisher
+	url = git@github.com:Qode-Fleet-Control/qode-fisher-template-v1.git
+[submodule "cpp/qt"]
+	path = cpp/qt
+	url = git@github.com:Qode-Fleet-Control/qode-qt-template-v1.git
+[submodule "cpp/boost"]
+	path = cpp/boost
+	url = git@github.com:Qode-Fleet-Control/qode-boost-template-v1.git
+[submodule "cpp/opencv"]
+	path = cpp/opencv
+	url = git@github.com:Qode-Fleet-Control/qode-opencv-template-v1.git
+[submodule "cpp/grpc"]
+	path = cpp/grpc
+	url = git@github.com:Qode-Fleet-Control/qode-grpc-template-v1.git
+[submodule "cpp/googletest"]
+	path = cpp/googletest
+	url = git@github.com:Qode-Fleet-Control/qode-googletest-template-v1.git
+[submodule "cpp/eigen"]
+	path = cpp/eigen
+	url = git@github.com:Qode-Fleet-Control/qode-eigen-template-v1.git
+[submodule "cpp/drogon"]
+	path = cpp/drogon
+	url = git@github.com:Qode-Fleet-Control/qode-drogon-template-v1.git
+[submodule "cpp/poco"]
+	path = cpp/poco
+	url = git@github.com:Qode-Fleet-Control/qode-poco-template-v1.git
+[submodule "cpp/catch2"]
+	path = cpp/catch2
+	url = git@github.com:Qode-Fleet-Control/qode-catch2-template-v1.git
+[submodule "hcl/terraform"]
+	path = hcl/terraform
+	url = git@github.com:Qode-Fleet-Control/qode-terraform-template-v1.git
+[submodule "hcl/opentofu"]
+	path = hcl/opentofu
+	url = git@github.com:Qode-Fleet-Control/qode-opentofu-template-v1.git
+[submodule "hcl/terragrunt"]
+	path = hcl/terragrunt
+	url = git@github.com:Qode-Fleet-Control/qode-terragrunt-template-v1.git
+[submodule "hcl/terraform-aws-modules"]
+	path = hcl/terraform-aws-modules
+	url = git@github.com:Qode-Fleet-Control/qode-terraform-aws-modules-template-v1.git
+[submodule "hcl/packer"]
+	path = hcl/packer
+	url = git@github.com:Qode-Fleet-Control/qode-packer-template-v1.git
+[submodule "hcl/nomad"]
+	path = hcl/nomad
+	url = git@github.com:Qode-Fleet-Control/qode-nomad-template-v1.git
+[submodule "hcl/consul"]
+	path = hcl/consul
+	url = git@github.com:Qode-Fleet-Control/qode-consul-template-v1.git
+[submodule "hcl/vault"]
+	path = hcl/vault
+	url = git@github.com:Qode-Fleet-Control/qode-vault-template-v1.git
+[submodule "hcl/terratest"]
+	path = hcl/terratest
+	url = git@github.com:Qode-Fleet-Control/qode-terratest-template-v1.git
+[submodule "hcl/tflint"]
+	path = hcl/tflint
+	url = git@github.com:Qode-Fleet-Control/qode-tflint-template-v1.git
+[submodule "go/gin"]
+	path = go/gin
+	url = git@github.com:Qode-Fleet-Control/qode-gin-template-v1.git
+[submodule "go/echo"]
+	path = go/echo
+	url = git@github.com:Qode-Fleet-Control/qode-echo-template-v1.git
+[submodule "go/fiber"]
+	path = go/fiber
+	url = git@github.com:Qode-Fleet-Control/qode-fiber-template-v1.git
+[submodule "go/chi"]
+	path = go/chi
+	url = git@github.com:Qode-Fleet-Control/qode-chi-template-v1.git
+[submodule "go/grpc-go"]
+	path = go/grpc-go
+	url = git@github.com:Qode-Fleet-Control/qode-grpc-go-template-v1.git
+[submodule "go/cobra"]
+	path = go/cobra
+	url = git@github.com:Qode-Fleet-Control/qode-cobra-template-v1.git
+[submodule "go/gorm"]
+	path = go/gorm
+	url = git@github.com:Qode-Fleet-Control/qode-gorm-template-v1.git
+[submodule "go/controller-runtime"]
+	path = go/controller-runtime
+	url = git@github.com:Qode-Fleet-Control/qode-controller-runtime-template-v1.git
+[submodule "go/testify"]
+	path = go/testify
+	url = git@github.com:Qode-Fleet-Control/qode-testify-template-v1.git
+[submodule "go/buffalo"]
+	path = go/buffalo
+	url = git@github.com:Qode-Fleet-Control/qode-buffalo-template-v1.git
+[submodule "fleet-template-v1"]
+	path = fleet-template-v1
+	url = git@github.com:Qode-Fleet-Control/fleet-template-v1.git

@@ -1,0 +1,58 @@
+# Move every submodule pointer to its repo's `main` tip.
+#
+# Each template lives in its own repo, where it is changed (PR → Build check → merge). This
+# repo only gathers them, so a pointer here never needs review: the job reads each member's
+# trunk tip with `git ls-remote` (they are public — no token needed to read), rewrites the
+# gitlinks with plumbing (no submodule checkout), and pushes one commit when anything moved.
+# Same shape as the fleet's own gitlink sync (shared/gitlink_bump.py): trunk tips only,
+# cumulative, idempotent, and the push is never forced.
+name: Sync submodule pointers
+
+on:
+  schedule:
+    - cron: "17 * * * *"
+  workflow_dispatch:
+  repository_dispatch:
+    types: [template-updated]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync-pointers
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Rewrite gitlinks to each member's main
+        id: sync
+        run: |
+          set -euo pipefail
+          moved=()
+          while read -r key path; do
+            name=${key#submodule.}; name=${name%.path}
+            url=$(git config -f .gitmodules "submodule.$name.url")
+            full=$(printf '%s' "$url" | sed -E 's#^(git@github.com:|https://github.com/)##; s#\.git$##')
+            tip=$(git ls-remote "https://github.com/$full.git" refs/heads/main | cut -f1)
+            [ -n "$tip" ] || { echo "::warning::no main on $full"; continue; }
+            cur=$(git ls-tree HEAD "$path" | awk '{print $3}')
+            if [ "$tip" != "$cur" ]; then
+              git update-index --cacheinfo "160000,$tip,$path"
+              moved+=("$path → ${tip:0:9}")
+            fi
+          done < <(git config -f .gitmodules --get-regexp '^submodule\..*\.path$')
+          echo "count=${#moved[@]}" >> "$GITHUB_OUTPUT"
+          printf '%s\n' "${moved[@]}" > moved.txt
+
+      - name: Commit and push
+        if: steps.sync.outputs.count != '0'
+        run: |
+          git config user.name "fleet-scaffolds sync"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          { echo "Sync submodule pointers to their trunk tips (${{ steps.sync.outputs.count }})"; echo; cat moved.txt; } > msg.txt
+          git commit -q -F msg.txt
+          git push origin HEAD:main
