@@ -31,6 +31,9 @@
 [submodule "typescript/fleet-scaffold"]
 	path = typescript/fleet-scaffold
 	url = git@github.com:Qode-Fleet-Control/fleet-scaffold-v1.git
+[submodule "typescript/nextjs-admin"]
+	path = typescript/nextjs-admin
+	url = git@github.com:Qode-Fleet-Control/qode-nextjs-admin-template-v1.git
 [submodule "python/django"]
 	path = python/django
 	url = git@github.com:Qode-Fleet-Control/qode-django-template-v1.git

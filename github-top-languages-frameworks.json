@@ -135,6 +135,17 @@
           "repo": "https://github.com/Qode-Fleet-Control/fleet-scaffold-v1",
           "repo_status": "added 2026-09-29; the fleet's own npm-workspaces starter (apps/api + apps/web + packages/*), the layout replit-to-fleet migrates onto",
           "verified": "not booted by the fleet; ships a Dockerfile (PORT, /api/health) but no fleet.conf or bin/ lifecycle scripts, and needs DATABASE_URL"
+        },
+        {
+          "rank": 12,
+          "name": "Next.js Admin",
+          "category": "admin dashboard (Next.js + Auth.js + shadcn/ui)",
+          "url": "https://github.com/Qode-Fleet-Control/qode-nextjs-admin-template-v1",
+          "scaffold": "scaffolds/typescript/nextjs-admin",
+          "scaffold_origin": "hand-written (Qode)",
+          "repo": "https://github.com/Qode-Fleet-Control/qode-nextjs-admin-template-v1",
+          "repo_status": "added 2026-10-06 from Qode-Fleet-Control/fleet-template-v1; the former Template Library template (agent-fleet templates/nextjs-admin), moved here when the library was retired",
+          "verified": "Build check (bin/run via docker compose, 200 at HEALTH_PATH /login, restart, stop)"
         }
       ]
     },
@@ -1231,7 +1242,7 @@
   ],
   "scaffolds": {
     "path": "scaffolds/",
-    "covers": "the top 10 frameworks of the top 10 languages: 95 starter projects (5 cannot run in a Linux container: WPF, .NET MAUI, Unity, Unreal Engine, Godot), plus the fleet's own full-stack TypeScript starter (fleet-scaffold-v1)",
+    "covers": "the top 10 frameworks of the top 10 languages: 95 starter projects (5 cannot run in a Linux container: WPF, .NET MAUI, Unity, Unreal Engine, Godot), plus two of the fleet's own TypeScript starters: the full-stack fleet-scaffold-v1 and the Next.js Admin dashboard",
     "generated": "2026-09-21",
     "state": "files only - no dependencies installed, nothing built or run",
     "readme": "scaffolds/README.md",

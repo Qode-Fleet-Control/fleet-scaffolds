@@ -1,7 +1,7 @@
 # fleet-scaffolds
 
 Every Fleet Control starter in one place: the base harness (`fleet-template-v1`) and all
-96 scaffold repos, as submodules of this one repo. Mount it once — Fleet Control's own repo
+97 scaffold repos, as submodules of this one repo. Mount it once — Fleet Control's own repo
 has it at `scaffolds/` — instead of a hundred separate submodules.
 
 ```sh
@@ -15,6 +15,7 @@ git clone --recurse-submodules git@github.com:Qode-Fleet-Control/fleet-scaffolds
 fleet-template-v1/            the language-agnostic run contract every repo is cut from
 <language>/<slug>/            one scaffold per framework, e.g. typescript/nextjs, php/laravel
 typescript/fleet-scaffold/    the fleet's own full-stack TypeScript starter (fleet-scaffold-v1)
+typescript/nextjs-admin/      the fleet's Next.js Admin dashboard (qode-nextjs-admin-template-v1)
 github-top-languages-frameworks.json   the catalogue (the backend's copy is the one served)
 ```
 
@@ -26,8 +27,10 @@ on a `repository_dispatch` of type `template-updated`. Change a template in its 
 ## About the scaffolds
 
 Starter projects for the **top 10 languages on GitHub** (Octoverse 2025) × the
-**top 10 frameworks** of each: 95 of the 100, plus the fleet's own full-stack
-TypeScript starter (`fleet-scaffold-v1`). The five that cannot run in a Linux
+**top 10 frameworks** of each: 95 of the 100, plus two of the fleet's own TypeScript
+starters: the full-stack `fleet-scaffold-v1` and the Next.js Admin dashboard
+(`qode-nextjs-admin-template-v1`, added 2026-10-06; it was the Template Library's one
+template until the library was retired). The five that cannot run in a Linux
 container have none: Unity, .NET MAUI, WPF, Godot (C#) and Unreal Engine (C++).
 The ranking is in `github-top-languages-frameworks.json`. The first 30
 (TypeScript, Python, Go) were made 2026-09-21; the other 65 on 2026-10-05.
